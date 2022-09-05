@@ -24,7 +24,8 @@ function! oxfdictionary#show_floatingwindow(deflist, width, height, col, row, an
 				\'col': a:col,
 				\'row': a:row,
 				\'anchor':a:anchor,
-				\'style': 'minimal'
+				\'style': 'minimal',
+				\'border': 'rounded'
 				\}
 	let win = nvim_open_win(buf, 1, opts)
 	call oxfdictionary#add_highlight()

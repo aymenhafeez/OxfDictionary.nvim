@@ -117,6 +117,7 @@ class Dict:
                 "width": win_width + 1,
                 "height": win_height,
                 "anchor": anchor,
+                "border": "rounded",
             },
         )
         self._nvim.command("setlocal nonumber")
